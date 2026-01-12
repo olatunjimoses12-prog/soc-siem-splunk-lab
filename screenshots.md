@@ -22,4 +22,39 @@ Created dashboards to provide SOC analysts with:
 **Dashboard view:**
 <img width="1366" height="768" alt="Screenshot 2026-01-10 093032" src="https://github.com/user-attachments/assets/b1fc4c6e-329e-4039-a364-2187c64a2ebd" />
 
+### Kali Attack Simulation
 
+Attack platform:
+
+- Kali Linux
+
+Attack technique:
+
+- SSH brute-force simulation
+
+Purpose:
+
+- Generate malicious authentication events
+
+- Validate SIEM detections and alerts
+
+**Screenshot of Kali attack activity:**
+<img width="1366" height="768" alt="Screenshot 2026-01-10 093701" src="https://github.com/user-attachments/assets/72d080ef-712e-456b-ae25-db88d597db7f" />
+
+### Windows Failed Login Detection
+
+Log source:
+
+- Windows Security Event Log
+
+Event ID:
+
+- 4625 (Failed logon)
+
+Detection focus:
+
+- Repeated failed authentication attempts
+
+- Suspicious login behavior
+
+**Screenshot of Windows failed login detection:**
